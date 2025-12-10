@@ -1,0 +1,23 @@
+seed: 42
+device: cpu
+model: DeepFM
+
+data_path ../data/
+
+# 실험관리
+predict: False
+wandb: False
+
+
+# 모델별 세부 설정
+model_args:
+  DeepFM:
+    datatype: context
+    input_dim: 10
+    embedding_dim: 16
+# 학습 설정
+train:
+epochs: 1
+batch_size: 2
+lr: 0.001
+rsesume: False
