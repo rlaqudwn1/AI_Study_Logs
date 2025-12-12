@@ -1,23 +1,25 @@
+# 기본 설정
 seed: 42
 device: cpu
 model: DeepFM
 
-data_path ../data/
+# 데이터 경로 (윈도우/로컬 환경에 맞게 상대경로 설정)
+data_path: ../data/
 
-# 실험관리
+# 실험 관리 (일단 끔)
 predict: False
 wandb: False
 
-
-# 모델별 세부 설정
+# 모델별 세부 설정 (getattr가 이걸 보고 움직인다)
 model_args:
   DeepFM:
-    datatype: context
+    datatype: context  # 이것이 data.py의 함수 접두사가 된다 (context_data_load)
     input_dim: 10
     embedding_dim: 16
+
 # 학습 설정
 train:
-epochs: 1
-batch_size: 2
-lr: 0.001
-rsesume: False
+  epochs: 1
+  batch_size: 2
+  lr: 0.001
+  resume: False
