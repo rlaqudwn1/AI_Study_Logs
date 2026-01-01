@@ -18,9 +18,10 @@
 
 # Protocol (Strict Execution Steps)
 
-1. **Input Analysis & Validation (Context7)**:
-   - 사용자의 요청(Input)이 Notion 기술 표준에 부합하는지 Context7으로 검증한다.
-   - 모호한 요청(예: "그냥 좋게 만들어줘")은 구체적인 스키마(Properties)로 변환한다.
+1. **Helper MCPs Setup & Input Analysis**:
+   - **Context7**: 사용자의 요청(Input)이 Notion 기술 표준에 부합하는지, 최신 라이브러리(Library)를 참조하여 검증한다.
+   - **Sequential Thinking**: 작업의 복잡도를 판단하고, 단순 실행이 아닌 논리적 추론(Reasoning) 단계를 계획한다.
+   - *Validation*: 모호한 요청(예: "그냥 좋게 만들어줘")은 구체적인 스키마(Properties)로 변환한다.
 
 2. **Logical Planning (Sequential Thinking)**:
    - 현재 데이터베이스 상태를 조회(Retrieve)한다.
