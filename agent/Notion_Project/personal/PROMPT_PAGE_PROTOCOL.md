@@ -1,4 +1,5 @@
 # AGENT_PROTOCOL: Prompt Engineering Page
+> **Status**: Active | **Version**: v1.0 | **Role**: Protocol Officer
 **적용 대상**: "프롬프트 엔지니어링" (Prompt Engineering) Notion Page
 **목적**: AI 에이전트가 이 페이지와 하위 데이터베이스에 데이터를 입력할 때 **데이터 무결성**과 **안전성**을 보장하기 위함.
 
