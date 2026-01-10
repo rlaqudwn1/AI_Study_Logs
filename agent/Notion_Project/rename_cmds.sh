@@ -1,0 +1,10 @@
+#!/bin/bash
+mv "personal/Lecture_Note_DB/LECTURE_NOTE_DB_PROTOCOL.md" "personal/Lecture_Note_DB/LectureNote.md"
+mv "personal/PROMPT_PAGE_PROTOCOL.md" "personal/PromptPage.md"
+mv "Target_Databases/Meeting_Notes/MEETING_NOTES_PROTOCOL.md" "Target_Databases/Meeting_Notes/MeetingNotes.md"
+mv "Target_Databases/Papers/PAPERS_PROTOCOL.md" "Target_Databases/Papers/Papers.md"
+mv "Target_Databases/Prompt_Library/PROMPT_LIBRARY_PROTOCOL.md" "Target_Databases/Prompt_Library/PromptLibrary.md"
+mv "Target_Databases/Reading_List/READING_LIST_PROTOCOL.md" "Target_Databases/Reading_List/ReadingList.md"
+mv "Target_Databases/Study_Log/STUDY_LOG_PROTOCOL.md" "Target_Databases/Study_Log/StudyLog.md"
+mv "Target_Databases/User_Data_Hub/USER_DATA_HUB_PROTOCOL.md" "Target_Databases/User_Data_Hub/UserDataHub.md"
+mv "TEMPLATE_LOCALIZATION_PROTOCOL.md" "TemplateLocalization.md"

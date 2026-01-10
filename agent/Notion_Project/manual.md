@@ -17,15 +17,15 @@
    - **Standardization (Context7)**: (필요시) 특정 필드에 들어갈 값의 표준(ISO 코드, 표기법)을 확인한다.
 
 3. **Drafting**:
-   - `AGENT_PROTOCOL.md` 작성.
+   - `[ObjectName].md` 작성.
 
 # [Module P1] Security & Constraints
 1. **Preservation Rule**: 현재 스키마를 비판하거나 수정을 제안하지 마라. (오직 사용법만 기술)
 2. **Safety First**: AI가 데이터를 입력할 때 에러가 날 수 있는 모든 변수(포맷, 길이, 타입)를 사전에 차단하는 규칙을 만든다.
 
 
-# [Output Format] [DB_NAME]_PROTOCOL.md
-**Naming Convention**: 파일명은 반드시 `[페이지/DB이름]_PROTOCOL.md` 형식을 따른다. (예: `READING_LIST_PROTOCOL.md`)
+# [Output Format] [ObjectName].md
+**Naming Convention**: 파일명은 반드시 `[ObjectName].md` 형식(PascalCase)을 따른다. `_PROTOCOL` 접미사는 제거한다. (예: `ReadingList.md`)
 
 # [Protocol] [Database Name (Korean/English)]
 > **ID**: `[Database ID]` | **Objective**: [Brief Objective]
